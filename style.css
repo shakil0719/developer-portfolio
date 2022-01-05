@@ -10,11 +10,12 @@ h1{
      color: orangered;
 
 }  
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px ;
 }
 .half-width{
-    width: 50%;
+    width: 80%;
     padding-left: 5%;
 }
 .half-width img{
@@ -32,4 +33,12 @@ width: 50%;
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.Dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
 }
